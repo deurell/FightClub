@@ -6,7 +6,7 @@ class Monster:
 		self.strength = strength
 		self.name = name
 		
-def MonsterFactory():
+def monsterfactory_create():
 	monster_names = ["Grahool", "Gruwl", "Xedgon", "Milritz", "Khaboom", "Blzorg", "Bewhat", "Gredgyll"]
 	hp = random.randrange(1,10)
 	strength = random.randrange(1,5)

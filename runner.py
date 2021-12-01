@@ -7,7 +7,7 @@ if __name__ == "__main__":
 	
 	while player.hp > 0:		
 		#create monster with a factory method
-		monster = MonsterFactory()
+		monster = monsterfactory_create()
 		# player, fight the monster!
 		player.fight(monster)
 
