@@ -9,7 +9,6 @@ class Player():
 		
 	def attack(self, monster):
 		# 50% chance to win
-		win = True
 		if random.random() > 0.5:
 			self.hp = self.hp - monster.strength
 			print(f"{monster.name} wins attack. Player hp {self.hp}")
